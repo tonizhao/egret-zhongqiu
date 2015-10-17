@@ -1,0 +1,148 @@
+{
+	"resources": [
+		{
+			"name": "bgImage",
+			"type": "image",
+			"url": "assets/bg.jpg"
+		},
+		{
+			"name": "egretIcon",
+			"type": "image",
+			"url": "assets/egret_icon.png"
+		},
+		{
+			"name": "bannerBottom",
+			"type": "image",
+			"url": "assets/banner_bottom.png"
+		},
+		{
+			"name": "bannerTop",
+			"type": "image",
+			"url": "assets/banner_top.png"
+		},
+		{
+			"name": "btnStart",
+			"type": "image",
+			"url": "assets/btn_start.png"
+		},
+		{
+			"name": "dzDefault",
+			"type": "image",
+			"url": "assets/dz_default.png"
+		},
+		{
+			"name": "dzMoveLeft",
+			"type": "image",
+			"url": "assets/dz_move_left.png"
+		},
+		{
+			"name": "dzMoveRight",
+			"type": "image",
+			"url": "assets/dz_move_right.png"
+		},
+		{
+			"name": "iconGift",
+			"type": "image",
+			"url": "assets/icon_gift.png"
+		},
+		{
+			"name": "canvasBg",
+			"type": "image",
+			"url": "assets/canvas_bg.jpg"
+		},
+		{
+			"name": "dzTop",
+			"type": "image",
+			"url": "assets/dz_top.png"
+		},
+		{
+			"name": "topLight",
+			"type": "image",
+			"url": "assets/light.png"
+		},
+		{
+			"name": "lifeBg",
+			"type": "image",
+			"url": "assets/life_bg.png"
+		},
+		{
+			"name": "loadingHead",
+			"type": "image",
+			"url": "assets/loading_head.png"
+		},
+		{
+			"name": "iconMusic",
+			"type": "image",
+			"url": "assets/icon_music.png"
+		},
+		{
+			"name": "iconMusicPause",
+			"type": "image",
+			"url": "assets/btn_music_pause.png"
+		},
+		{
+			"name": "iconCake",
+			"type": "image",
+			"url": "assets/icon_cake.png"
+		},
+		{
+			"name": "iconBoom",
+			"type": "image",
+			"url": "assets/icon_boom.png"
+		},
+		{
+			"name": "iconMagnet",
+			"type": "image",
+			"url": "assets/icon_magnet.png"
+		},
+		{
+			"name": "iconRabbit",
+			"type": "image",
+			"url": "assets/icon_rabbit.png"
+		},
+		{
+			"name": "dzDead",
+			"type": "image",
+			"url": "assets/dz_dead.png"
+		},
+		{
+			"name": "lifeHead",
+			"type": "image",
+			"url": "assets/life_head.png"
+		},
+		{
+			"name": "gameSwitchBtn",
+			"type": "image",
+			"url": "assets/btn_switch.png"
+		},
+		{
+			"name": "gameSwitchBtnPause",
+			"type": "image",
+			"url": "assets/btn_switch_pause.png"
+		},
+		{
+			"name": "description",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "backgroundSound",
+			"type": "sound",
+			"url": "sound/background.mp3"
+		}
+	],
+	"groups": [
+		{
+			"name" : "loading",
+			"keys" : "loadingHead"
+		},
+		{
+			"name": "preload",
+			"keys": "bannerTop, bannerBottom, btnStart, dzDefault, dzMoveLeft, dzMoveRight, iconGift, canvasBg, dzTop, topLight, lifeBg, iconMusic, iconMusicPause, iconCake, iconBoom, dzDead, lifeHead, gameSwitchBtn, gameSwitchBtnPause, iconMagnet, iconRabbit"
+		},
+		{
+			"name": "soundLoading",
+			"keys": "backgroundSound"
+		}
+	]
+}

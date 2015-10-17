@@ -1,0 +1,7 @@
+[
+	"GameConstants.ts",
+	"IconCollect.ts",
+	"GameIcon.ts",
+	"LoadingUI.ts",
+	"Main.ts"
+]
